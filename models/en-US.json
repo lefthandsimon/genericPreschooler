@@ -1,0 +1,48 @@
+{
+    "interactionModel":{
+        "languageModel":{
+            "invocationName":"generic preschool",
+            "types":[],
+            "intents":[
+                {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+                },
+                {
+                    "name":"GameIntent",
+                    "slots":[
+
+                    ],
+                    "samples":[
+                        "play a game",
+                        "game",
+                        "I want a game",
+                        "game please",
+                        "let's play a game"
+                    ]
+                },
+                {
+                    "name":"StoryIntent",
+                    "slots":[
+
+                    ],
+                    "samples":[
+                        "tell me a story",
+                        "story",
+                        "I want a StoryIntent",
+                        "story please",
+                        "let's have a story"
+                    ]
+                }
+            ]
+        }
+    }
+}

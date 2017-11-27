@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.ada96ecd-3b37-48d1-a374-fe5eb11a6ee7",
+      "was_cloned": false,
+      "merge": {
+        "skillManifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-genericPreschooler-default"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
